@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="To-Do List - Manage tasks seamlessly with this simple To-Do List application developed using HTML, CSS, and JavaScript. Add, edit, and delete tasks, with data stored persistently in the browser's local storage." />
+    <meta name="keywords" content="To-Do List, Task Management, HTML, CSS, JavaScript, Local Storage, Productivity" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>To-Do List - Task Management Application</title>
+  </head>
+  <body>
+    <div class="todo-container">
+      <a href="https://nenorvalls-projects-showcase.netlify.app/" class="back-to-landing">
+        <h1>To-Do List</h1>
+    </a>
+      <ul id="task-list"></ul>
+      <div class="add-task">
+        <input type="text" id="new-task" placeholder="Add a new task..." />
+        <button onclick="addTask()">Add</button>
+      </div>
+    </div>
+
+    <footer>
+      <span>Designed by: NeNorvalls</span>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
